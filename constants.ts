@@ -51,6 +51,50 @@ export const SERVICES = [
 
 export const PROJECTS: Project[] = [
   {
+    title: "RentZilla",
+    role: "Android Project",
+    period: "Dec 2024 – Present",
+    description: "A comprehensive Expense Tracking Android App designed to help users manage personal and shared finances. Features AI-driven insights, PDF reports, and community expense splitting.",
+    details: [
+      "Developed a user-friendly Android app for monitoring monthly expenditures.",
+      "Created customizable categories called 'rent-spaces' (Home, Office, Travel).",
+      "Implemented PDF report generation and expense tracking features.",
+      "Integrated secure login with phone number and OTP verification via Firebase.",
+    ],
+    techStack: ["Java", "XML", "Firebase", "FCM", "Android Studio"],
+    challenges: [
+      "Handling secure user authentication and data privacy for sensitive financial information.",
+      "Generating PDF reports dynamically on mobile devices with proper formatting.",
+      "Synchronizing data in real-time between the local device and Firebase cloud."
+    ],
+    solutions: [
+      "Integrated Firebase Authentication for robust and secure phone number login.",
+      "Used a specialized Android library for PDF generation and file handling.",
+      "Implemented Firebase Realtime Database listeners for instant data updates across devices."
+    ],
+    learnings: [
+      "Mastered Android's Activity lifecycle and Fragment management.",
+      "Learned implementation of background services for notifications (FCM).",
+      "Enhanced skills in integrating third-party backend services like Firebase."
+    ],
+    // IMPORTANT: Replace these URLs with your local file paths (e.g. "/images/rentzilla/dashboard.jpg")
+    images: [
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251214-225819.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251214-230025.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003622.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003630.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003633.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003637.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003639.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003643.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003645.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003649.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003654.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003659.Expense%20Manager.png",
+      "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot_20251215-003710.Expense%20Manager.png"
+    ]
+  },
+  {
     title: "Learn Code",
     role: "Web Project",
     period: "Mar 2025 – Present",
@@ -77,34 +121,10 @@ export const PROJECTS: Project[] = [
       "Deepened understanding of RESTful API design principles and middleware integration.",
       "Gained proficiency in managing complex state in React applications.",
       "Learned best practices for secure user authentication and data storage."
-    ]
-  },
-  {
-    title: "RentZilla",
-    role: "Android Project",
-    period: "Dec 2024 – Present",
-    description: "Expense Tracking Android App",
-    details: [
-      "Developed a user-friendly Android app for monitoring monthly expenditures.",
-      "Created customizable categories called 'rent-spaces' (Home, Office, Travel).",
-      "Implemented PDF report generation and expense tracking features.",
-      "Integrated secure login with phone number and OTP verification via Firebase.",
     ],
-    techStack: ["Java", "XML", "Firebase", "FCM", "Android Studio"],
-    challenges: [
-      "Handling secure user authentication and data privacy for sensitive financial information.",
-      "Generating PDF reports dynamically on mobile devices with proper formatting.",
-      "Synchronizing data in real-time between the local device and Firebase cloud."
-    ],
-    solutions: [
-      "Integrated Firebase Authentication for robust and secure phone number login.",
-      "Used a specialized Android library for PDF generation and file handling.",
-      "Implemented Firebase Realtime Database listeners for instant data updates across devices."
-    ],
-    learnings: [
-      "Mastered Android's Activity lifecycle and Fragment management.",
-      "Learned implementation of background services for notifications (FCM).",
-      "Enhanced skills in integrating third-party backend services like Firebase."
+    images: [
+        "https://placehold.co/1200x800/4f46e5/ffffff?text=LearnCode",
+        "https://github.com/YSHIVAM7897/project/raw/main/portfoli_data/Screenshot%202025-12-15%20010935.png"
     ]
   }
 ];
