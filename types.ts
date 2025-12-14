@@ -8,6 +8,7 @@ export interface Project {
   challenges?: string[];
   solutions?: string[];
   learnings?: string[];
+  images: string[];
 }
 
 export interface Experience {
