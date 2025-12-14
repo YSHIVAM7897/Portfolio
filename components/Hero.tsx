@@ -37,7 +37,7 @@ export const Hero: React.FC = () => {
             View My Work
             <ArrowRight size={18} />
           </a>
-          <a href="https://drive.google.com/file/d/1SriyggQFuWjaoOAvV-fGMpToNPLKSD2q/view?usp=sharing" download target="_blank" className="w-full sm:w-auto px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-full font-medium hover:bg-slate-50 transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md hover:-translate-y-1">
+          <a href="https://drive.google.com/file/d/1SriyggQFuWjaoOAvV-fGMpToNPLKSD2q/view?usp=sharing" download= "shivam_resume.pdf" target="_blank" className="w-full sm:w-auto px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-full font-medium hover:bg-slate-50 transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md hover:-translate-y-1">
             <Download size={18} />
             Download CV
           </a>
